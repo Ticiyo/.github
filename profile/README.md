@@ -1,40 +1,52 @@
-# 🛍️ Ticiyo
+# 🛍️ Ticiyo — Dijital Satışın Yeni Adresi
 
-**Ticiyo**, .NET Core teknolojisiyle geliştirilmiş, modern ve ölçeklenebilir bir **B2C Saas platformudur**.  
-Proje, monolith mimari yapısını koruyarak sade, yönetilebilir ve genişletilebilir bir çözüm sunar.
+
+**Ticiyo**, küçük ve orta ölçekli işletmelerin online satış yapmasını kolaylaştırmak için geliştirilen, modern ve açık kaynaklı bir **B2C Saas platformudur.**.  
+Tamamen **.NET Core** üzerinde inşa edilmiştir ve  kendi gücünü kullanarak modüler, güvenli ve genişletilebilir bir altyapı sunar.
 
 ---
 
-## 🚀 Özellikler
+## 🚀 Vizyonumuz
 
-- 🧩 **Modüler yapı** — Katmanlı mimari, domain bazlı ayrımlar
-- 🛒 **Ürün yönetimi** — Listeleme, filtreleme, detay, stok yönetimi
-- 💳 **Ödeme altyapısı** — Çoklu ödeme sağlayıcısı desteği
-- 🏪 **Pazaryeri entegrasyonu** — Dış API’ler ile ürün senkronizasyonu
-- 🔍 **Akıllı arama ve filtreleme**
-- ⚡ **Performans odaklı yapı** — Lazy loading, caching, async işlemler
-- 🌐 **SSO (Single Sign-On)** altyapısı (OpenIddict ile)
+Ticiyo’nun hedefi, her ölçekten satıcının kendi markası altında profesyonel bir çevrimiçi mağaza kurmasını mümkün kılmaktır.  
+Basit kurulum, güçlü yönetim paneli ve ölçeklenebilir altyapısı sayesinde işletmelerin **teknik detaylara takılmadan satışa odaklanmasını** sağlar.
+
+---
+
+## ✨ Öne Çıkan Özellikler
+
+- 🧩 **Modüler mimari** — Güçlü katmanlı yapı  
+- 🛒 **Ürün yönetimi** — Listeleme, varyant, stok ve fiyat kontrolü  
+- 💳 **Ödeme altyapısı** — Çoklu ödeme sağlayıcı entegrasyonu  
+- 🌐 **Pazaryeri entegrasyonu** — Trendyol, Hepsiburada, Çiçeksepeti vb. ile senkronizasyon  
+- 🔍 **Gelişmiş filtreleme ve arama**  
+- 👥 **SSO (Single Sign-On)** — OpenIddict ile kullanıcı yönetimi  
+- ⚙️ **Yönetim paneli** — Sipariş, ürün, kullanıcı ve ayar yönetimi  
+- 💬 **Gerçek zamanlı bildirimler** (SignalR)  
 
 ---
 
 ## 🧱 Teknolojiler
 
-- **Backend:** ASP.NET Core 9, ABP Framework
-- **Frontend:** ASP.NET Core 9 Razor Pages
-- **Database:** PostgreSQL
-- **Authentication:** OpenIddict (SSO)
-- **Infrastructure:** EF Core, AutoMapper, MediatR
+| Katman | Teknoloji |
+|--------|------------|
+| Backend | ASP.NET Core 9, EF Core |
+| Frontend | ASP.NET Core 9 Razor Pages, Bootstrap |
+| Authentication | OpenIddict (SSO) |
+| Database | SQL Server / PostgreSQL |
+| Tools | AutoMapper, MediatR, FluentValidation |
 
 ---
 
-## 🧭 Mimari
+## 🧭 Mimari Yapı
 
-Ticiyo, monolith mimari altında modüler bir şekilde kurgulanmıştır.  
-Her modül (örneğin *Product*, *Order*, *Payment*) kendi domain mantığını içerir, böylece yönetilebilirlik ve test edilebilirlik artırılmış olur.
+Ticiyo, **monolith mimari** üzerine kuruludur ancak **modüler domain yaklaşımı** ile bölünmüştür.  
+Her domain (örneğin *Product*, *Order*, *Payment*) kendi servislerini, repository’lerini ve uygulama servislerini içerir.  
+Bu sayede proje hem **tek parça dağıtılabilir**, hem de gelecekte mikroservis geçişine uygun hale gelir.
 
 ---
 
-## 📦 Kurulum
+## ⚡ Kurulum
 
 ```bash
 git clone https://github.com/kullaniciadi/ticiyo.git
