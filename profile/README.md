@@ -20,9 +20,9 @@ ABP Framework tabanında inşa edilen proje, monolith mimari yapısını koruyar
 
 ## 🧱 Teknolojiler
 
-- **Backend:** ASP.NET Core 8, ABP Framework
-- **Frontend:** Angular 17, TailwindCSS
-- **Database:** SQL Server / PostgreSQL
+- **Backend:** ASP.NET Core 9, ABP Framework
+- **Frontend:** ASP.NET Core 9 Razor Pages
+- **Database:** PostgreSQL
 - **Authentication:** OpenIddict (SSO)
 - **Infrastructure:** EF Core, AutoMapper, MediatR
 
