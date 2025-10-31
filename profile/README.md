@@ -1,7 +1,7 @@
 # 🛍️ Ticiyo
 
-**Ticiyo**, .NET Core ve Angular teknolojileriyle geliştirilmiş, modern ve ölçeklenebilir bir **B2C e-ticaret platformudur**.  
-ABP Framework tabanında inşa edilen proje, monolith mimari yapısını koruyarak sade, yönetilebilir ve genişletilebilir bir çözüm sunar.
+**Ticiyo**, .NET Core teknolojisiyle geliştirilmiş, modern ve ölçeklenebilir bir **B2C Saas platformudur**.  
+Proje, monolith mimari yapısını koruyarak sade, yönetilebilir ve genişletilebilir bir çözüm sunar.
 
 ---
 
@@ -14,7 +14,6 @@ ABP Framework tabanında inşa edilen proje, monolith mimari yapısını koruyar
 - 🔍 **Akıllı arama ve filtreleme**
 - ⚡ **Performans odaklı yapı** — Lazy loading, caching, async işlemler
 - 🌐 **SSO (Single Sign-On)** altyapısı (OpenIddict ile)
-- 📦 **ABP Framework** ile yetkilendirme, audit logging, localization, background job desteği
 
 ---
 
